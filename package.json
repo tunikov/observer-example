@@ -1,0 +1,25 @@
+{
+  "name": "observer-example",
+  "version": "0.1.0",
+  "description": "",
+  "main": "test.ts",
+  "scripts": {
+    "build": "tsc",
+    "go": "node ./dist/test",
+    "start": "npm run build && npm run go",
+    "frontend": "./node_modules/.bin/http-server -p 4444",
+    "lint": "./node_modules/.bin/eslint"
+  },
+  "keywords": [],
+  "author": "tunikov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.27",
+    "@typescript-eslint/eslint-plugin": "^4.15.1",
+    "@typescript-eslint/parser": "^4.15.1",
+    "eslint": "^7.20.0",
+    "http-server": "^0.12.3",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.5"
+  }
+}
